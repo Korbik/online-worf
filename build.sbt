@@ -15,7 +15,7 @@ lazy val root = (project in file("."))
       "io.circe"        %% "circe-generic"       % "0.9.1",
       "io.circe"        %% "circe-parser"        % "0.9.1",
       "io.circe"        %% "circe-literal"       % "0.9.1",
-      "io.warp10"       %  "token"               % "1.2.9",
+      "io.warp10"       %  "token"               % "1.2.13",
       "org.specs2"      %% "specs2-core"         % Specs2Version % "test",
       "ch.qos.logback"  %  "logback-classic"     % LogbackVersion
     )
