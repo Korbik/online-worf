@@ -22,6 +22,7 @@ lazy val root = (project in file("."))
   )
 
 resolvers += "cityzendata-bintray" at "http://dl.bintray.com/cityzendata/maven"
+resolvers += "hbs-bintray" at "http://dl.bintray.com/hbs/maven"
 
 addCompilerPlugin(
   "org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full
